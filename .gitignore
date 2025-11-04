@@ -1,12 +1,24 @@
-# Build / binary artifacts
+# Binaries and emulated builds
+*.gba
 *.o
 *.out
-*.exe
-*.jar
-mGBA
-
-# Editor or OS files
-.DS_Store
-
-# Assignment files
+*.elf
 *.pdf
+*.jar
+
+# Emulator / runtime files
+mGBA.app/
+mGBA/
+pokemon.lua
+socketserver.lua
+sockettest.lua
+*.shader
+*.icns
+*.dat
+manifest.ini
+CodeResources
+Info.plist
+
+# OS/editor junk
+examples/
+.vscode/
